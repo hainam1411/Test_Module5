@@ -9,13 +9,13 @@ import SearchOrder from "./pages/Order/SearchOrder";
 function App() {
   return (
       <>
-        <Routes>
-          <Route path={'orders'} element={<Home/>}>
-            <Route path={'home'} element={<ListOrder/>}/>
-            <Route path={'add'} element={<AddOrder/>}/>
-            <Route path={'search'} element={<SearchOrder/>}/>
-          </Route>
-        </Routes>
+          <Routes>
+              <Route path={'orders'} element={<Home/>}>
+                  <Route path={'home'} element={<ListOrder/>}/>
+                  <Route path={'add'} element={<AddOrder/>}/>
+                  <Route path={'search'} element={<SearchOrder/>}/>
+              </Route>
+          </Routes>
       </>
   );
 }
